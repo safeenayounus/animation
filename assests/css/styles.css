@@ -1,0 +1,51 @@
+body{
+    background: black;
+}
+.main{
+width:30px;
+height:50px;
+border-radius: 10%;
+background: rgb(236, 8, 8);
+position:relative;
+animation: main 5s infinite;
+
+}
+@keyframes main { 
+    0%{
+        background:rgb(236, 8, 8) ;
+         left:0px; 
+         top:0px;
+        height: 50px;
+        width: 30px;
+        border-radius: 10%;
+        
+    }
+    25%{
+        background: rgba(235, 193, 6, 0.834) ; 
+        left:500px;
+         top:0px;
+        height: 60px;
+        width: 40px;
+        border-radius: 20%;
+    }
+    50%{
+        
+        background: rgb(255, 153, 0) ; 
+        left:500px; 
+        top:500px;
+        height: 60px;
+        width: 40px;
+        border-radius: 30%;
+        
+    }
+    75%{
+        
+        background: rgb(149, 255, 0) ;
+         left:0px;
+          top:500px;
+        height: 70px;
+        width: 50px;
+        border-radius: 40%;
+        
+    }
+}
